@@ -17,5 +17,8 @@
         <mapping class="home.Road"/>
         <mapping class="home.InsurancePayout"/>
         <mapping class="home.Person"/>
+
+        <mapping class="sublist.Customer"/>
+        <mapping class="sublist.Invoice"/>
     </session-factory>
 </hibernate-configuration>

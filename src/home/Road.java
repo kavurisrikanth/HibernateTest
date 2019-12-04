@@ -29,4 +29,12 @@ public class Road {
     public String toString() {
         return address;
     }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getAddress() {
+        return address;
+    }
 }

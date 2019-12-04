@@ -30,4 +30,28 @@ public class Accident {
 
     @NotNull
     private Date date;
+
+    public void setVictim(Person victim) {
+        this.victim = victim;
+    }
+
+    public Person getVictim() {
+        return victim;
+    }
+
+    public void setOn(Road on) {
+        this.on = on;
+    }
+
+    public Road getOn() {
+        return on;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public Date getDate() {
+        return date;
+    }
 }
